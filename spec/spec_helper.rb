@@ -1,5 +1,7 @@
 require '../lib/interval'
 require 'rspec/autorun'
+require 'capybara/rspec'
+
 
 describe TimeRange do
   let(:new) { TimeRange.new([['10:00', '10:20'], ['11:00', '12:00'],

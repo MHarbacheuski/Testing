@@ -1,3 +1,10 @@
 source 'https://rubygems.org'
 gem 'rubocop'
 gem 'rspec'
+gem 'capybara'
+
+group :test do
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'webdriver' # <- New!
+end
